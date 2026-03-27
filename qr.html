@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Scan & Pay</title>
+
+<style>
+body {
+    text-align:center;
+    background:#0f172a;
+    color:white;
+    font-family: Arial;
+}
+
+img {
+    margin-top: 40px;
+    width: 250px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background: #34d399;
+    cursor: pointer;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>Scan & Pay</h1>
+<p>Vanshika ko payment kare</p>
+
+<img src="qrvanshika.png">
+
+<br>
+
+<button onclick="done()">I Have Paid</button>
+
+<script>
+function done() {
+    window.location.href = "success.html";
+}
+</script>
+
+</body>
+</html>
