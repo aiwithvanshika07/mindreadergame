@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Payment Successful</title>
+
+<style>
+body {
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+
+.tick {
+    font-size: 80px;
+    color: #34d399;
+    margin-top: 100px;
+    animation: pop 0.5s ease;
+}
+
+@keyframes pop {
+    0% {transform: scale(0);}
+    100% {transform: scale(1);}
+}
+
+button {
+    margin-top: 30px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    background: #34d399;
+    font-size: 16px;
+    cursor: pointer;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="tick">✔️</div>
+
+<h1>Payment Successful</h1>
+<p>Thank you Vanshika 💚</p>
+
+<button onclick="goHome()">Back to Home</button>
+
+<script>
+function goHome() {
+    window.location.href = "index.html";
+}
+</script>
+
+</body>
+</html>
